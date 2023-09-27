@@ -87,9 +87,9 @@ namespace Практос
                     if (Ostatok == 0)
                         Console.Write(i + " ");
                 }
-                Console.WriteLine("\n Продолжаем?" + "\n 1. ДА" + "\n 2. НЕТ");
+                Console.WriteLine("\n Продолжаем?" + "\n Для продолжения нажмите любую кнопку" + "\n Для выхода нажмите 7");
                 int.TryParse(Console.ReadLine(), out menu);
-            } while (menu != 2);
+            } while (menu != 7);
         }
 
     }
